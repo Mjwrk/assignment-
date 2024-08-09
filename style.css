@@ -1,0 +1,1082 @@
+.HIFI-TEMPO {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.HIFI-TEMPO .div {
+  width: 1440px;
+  height: 6144px;
+  position: relative;
+}
+
+.HIFI-TEMPO .hero-section {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-color: var(--collection-1-bg);
+}
+
+.HIFI-TEMPO .overlap {
+  position: absolute;
+  width: 1125px;
+  height: 592px;
+  top: 235px;
+  left: 170px;
+}
+
+.HIFI-TEMPO .overlap-group {
+  position: absolute;
+  width: 1125px;
+  height: 560px;
+  top: 0;
+  left: 0;
+}
+
+.HIFI-TEMPO .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  position: absolute;
+  top: 80px;
+  left: 82px;
+  transform: rotate(-30deg);
+}
+
+.HIFI-TEMPO .element-wrapper {
+  position: relative;
+  width: 350px;
+  height: 420px;
+}
+
+.HIFI-TEMPO .element {
+  position: absolute;
+  width: 513px;
+  height: 539px;
+  top: -59px;
+  left: -82px;
+  transform: rotate(30deg);
+  object-fit: cover;
+}
+
+.HIFI-TEMPO .frame-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+  position: absolute;
+  top: 38px;
+  left: 375px;
+}
+
+.HIFI-TEMPO .hover-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .hover {
+  position: relative;
+  height: 420px;
+  background-image: url(./img/wepik-export-20240315062536jczt-2.png);
+  width: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HIFI-TEMPO .hover-black-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+  position: absolute;
+  top: 59px;
+  left: 694px;
+  transform: rotate(30deg);
+}
+
+.HIFI-TEMPO .element-cc-d-e {
+  position: absolute;
+  width: 513px;
+  height: 539px;
+  top: -59px;
+  left: -82px;
+  transform: rotate(-30deg);
+  object-fit: cover;
+}
+
+.HIFI-TEMPO .button-style-one {
+  top: 536px;
+  left: 385px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 32px;
+  position: absolute;
+  background-color: #eaeeec;
+  border-radius: 35px;
+  overflow: hidden;
+  border: 1.5px solid;
+  border-color: #000000;
+}
+
+.HIFI-TEMPO .discover-timepieces {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.5px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.HIFI-TEMPO .text-wrapper {
+  position: absolute;
+  top: 844px;
+  left: 151px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .text-wrapper-2 {
+  position: absolute;
+  top: 948px;
+  left: 611px;
+  font-family: "Josefin Slab", Helvetica;
+  color: #000000;
+  font-size: 32px;
+  white-space: nowrap;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .div-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 38px 100px 38px 74px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff33;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.HIFI-TEMPO .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 786px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .frame-3 {
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+}
+
+.HIFI-TEMPO .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Josefin Slab", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.HIFI-TEMPO .frame-4 {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 44px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .discover-timepieces-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #eaeeec;
+  border-radius: 35px;
+  overflow: hidden;
+  border: 1.5px solid;
+  border-color: #000000;
+}
+
+.HIFI-TEMPO .menu {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.HIFI-TEMPO .categories {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 1024px;
+  left: 0;
+  background-color: var(--collection-1-bg);
+}
+
+.HIFI-TEMPO .text-wrapper-4 {
+  position: absolute;
+  top: 73px;
+  left: 334px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .p {
+  position: absolute;
+  top: 177px;
+  left: 485px;
+  font-family: "Josefin Slab", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.HIFI-TEMPO .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 41px;
+  position: absolute;
+  top: 303px;
+  left: 164px;
+}
+
+.HIFI-TEMPO .frame-6 {
+  position: relative;
+  width: 1112px;
+  height: 440px;
+}
+
+.HIFI-TEMPO .frame-7 {
+  position: absolute;
+  width: 340px;
+  height: 440px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px #00000040;
+}
+
+.HIFI-TEMPO .wepik-export {
+  position: relative;
+  width: 350px;
+  height: 420px;
+  top: 10px;
+  left: -5px;
+  background-image: url(./img/wepik-export-20240315062536jczt-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HIFI-TEMPO .frame-8 {
+  position: absolute;
+  width: 340px;
+  height: 440px;
+  top: 0;
+  left: 386px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px #00000040;
+}
+
+.HIFI-TEMPO .gold-watch-with {
+  position: relative;
+  width: 305px;
+  height: 374px;
+  top: 33px;
+  left: 17px;
+  background-image: url(./img/gold-watch-with-white-leather-band-lights-isolated-white-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HIFI-TEMPO .frame-9 {
+  position: absolute;
+  width: 340px;
+  height: 440px;
+  top: 0;
+  left: 772px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px #00000040;
+}
+
+.HIFI-TEMPO .close-up-clock-with {
+  position: relative;
+  width: 276px;
+  height: 375px;
+  top: 35px;
+  left: 32px;
+  background-image: url(./img/close-up-clock-with-time-change-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HIFI-TEMPO .frame-10 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 265px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .button-style-one-2 {
+  top: 908px;
+  left: 554px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 32px;
+  position: absolute;
+  background-color: #eaeeec;
+  border-radius: 35px;
+  overflow: hidden;
+  border: 1.5px solid;
+  border-color: #000000;
+}
+
+.HIFI-TEMPO .brands {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 2048px;
+  left: 0;
+  background-color: var(--collection-1-bg);
+}
+
+.HIFI-TEMPO .text-wrapper-6 {
+  position: absolute;
+  top: 113px;
+  left: 419px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .frame-11 {
+  position: absolute;
+  width: 1112px;
+  height: 611px;
+  top: 312px;
+  left: 165px;
+}
+
+.HIFI-TEMPO .frame-12 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+  position: relative;
+}
+
+.HIFI-TEMPO .unsplash {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: 19px;
+  left: 20px;
+  object-fit: cover;
+}
+
+.HIFI-TEMPO .img {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: 20px;
+  left: 20px;
+  object-fit: cover;
+}
+
+.HIFI-TEMPO .frame-13 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 201px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .PATEK-PHILLIPE {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .text-wrapper-8 {
+  position: absolute;
+  top: 217px;
+  left: 479px;
+  font-family: "Josefin Slab", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.HIFI-TEMPO .gallery {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 3072px;
+  left: 0;
+  background-color: var(--collection-1-bg);
+}
+
+.HIFI-TEMPO .overlap-2 {
+  position: absolute;
+  width: 811px;
+  height: 1008px;
+  top: 9px;
+  left: 545px;
+}
+
+.HIFI-TEMPO .overlap-3 {
+  position: absolute;
+  width: 811px;
+  height: 1008px;
+  top: 0;
+  left: 0;
+}
+
+.HIFI-TEMPO .hover-hand {
+  position: absolute;
+  height: 367px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/unsplash-lmbgfdknhgo.png);
+  width: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HIFI-TEMPO .lady-close-up {
+  position: absolute;
+  width: 450px;
+  height: 1008px;
+  top: 0;
+  left: 361px;
+  background-image: url(./img/unsplash-j8c66j15nak.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HIFI-TEMPO .frame-14 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  position: absolute;
+  top: 91px;
+  left: 274px;
+}
+
+.HIFI-TEMPO .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  font-family: "Josefin Slab", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.HIFI-TEMPO .hover-lady {
+  position: absolute;
+  height: 311px;
+  top: 367px;
+  left: 0;
+  background-image: url(./img/unsplash-331tagmqa8y.png);
+  width: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HIFI-TEMPO .hover-men {
+  position: absolute;
+  height: 330px;
+  top: 678px;
+  left: 0;
+  background-image: url(./img/unsplash-gj9b48mc5qs.png);
+  width: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HIFI-TEMPO .photo-gallery {
+  position: absolute;
+  width: 450px;
+  height: 1008px;
+  top: 9px;
+  left: 84px;
+  background-image: url(./img/unsplash-ymh6t-hajes.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HIFI-TEMPO .reviews {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 4096px;
+  left: 0;
+  background-color: var(--collection-1-bg);
+}
+
+.HIFI-TEMPO .frame-15 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  position: absolute;
+  top: 109px;
+  left: 450px;
+}
+
+.HIFI-TEMPO .feedback-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  top: 364px;
+  left: 77px;
+}
+
+.HIFI-TEMPO .frame-16 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 5.26px;
+  position: relative;
+  flex: 0 0 auto;
+  box-shadow: 0px 3.5px 3.5px #00000040;
+}
+
+.HIFI-TEMPO .ellipse {
+  position: relative;
+  width: 52.57px;
+  height: 52.57px;
+  background-color: #d9d9d9;
+  border-radius: 26.28px;
+}
+
+.HIFI-TEMPO .line {
+  width: 17px;
+  top: 26px;
+  left: 18px;
+  position: absolute;
+  height: 1px;
+}
+
+.HIFI-TEMPO .user-feedback {
+  position: relative;
+  width: 1172.28px;
+  height: 336.44px;
+  overflow: hidden;
+}
+
+.HIFI-TEMPO .user-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8.76px;
+  padding: 28.04px;
+  position: absolute;
+  top: 0;
+  left: 26px;
+  background-color: #d9d9d9;
+}
+
+.HIFI-TEMPO .frame-17 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24.53px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .frame-18 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18.4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.88px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #1e1e1e;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .text-wrapper-12 {
+  position: relative;
+  width: 479.25px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #1e1e1e;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .frame-19 {
+  gap: 17.52px;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+}
+
+.HIFI-TEMPO .unsplash-2 {
+  position: relative;
+  width: 87.61px;
+  height: 87.61px;
+  object-fit: cover;
+}
+
+.HIFI-TEMPO .frame-20 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.63px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.88px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .frame-21 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 13.14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .star {
+  position: relative;
+  width: 26.28px;
+  height: 26.28px;
+}
+
+.HIFI-TEMPO .user-card-2 {
+  left: 599px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8.76px;
+  padding: 28.04px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.HIFI-TEMPO .user-card-3 {
+  left: 1745px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8.76px;
+  padding: 28.04px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.HIFI-TEMPO .user-card-4 {
+  left: 1172px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8.76px;
+  padding: 28.04px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.HIFI-TEMPO .frame-22 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3.5px;
+  position: relative;
+  flex: 0 0 auto;
+  transform: rotate(180deg);
+  box-shadow: 0px 3.5px 3.5px #00000040;
+}
+
+.HIFI-TEMPO .line-2 {
+  position: absolute;
+  width: 17px;
+  height: 1px;
+  top: 26px;
+  left: 18px;
+  transform: rotate(-180deg);
+}
+
+.HIFI-TEMPO .footer {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 5120px;
+  left: 0;
+  background-color: var(--collection-1-bg);
+}
+
+.HIFI-TEMPO .frame-23 {
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 53px;
+  left: 54px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.HIFI-TEMPO .text-wrapper-14 {
+  font-size: 280px;
+  letter-spacing: 42px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Josefin Slab", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.HIFI-TEMPO .line-3 {
+  width: 1350px;
+  top: 405px;
+  left: 45px;
+  position: absolute;
+  height: 1px;
+}
+
+.HIFI-TEMPO .line-4 {
+  width: 1350px;
+  top: 879px;
+  left: 45px;
+  position: absolute;
+  height: 1px;
+}
+
+.HIFI-TEMPO .frame-24 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 63px;
+  position: absolute;
+  top: 469px;
+  left: 104px;
+}
+
+.HIFI-TEMPO .frame-25 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 128px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .FACEBOOK {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.HIFI-TEMPO .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: #000000b2;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .line-5 {
+  width: 259px;
+  top: 58px;
+  left: -262px;
+  position: absolute;
+  height: 1px;
+}
+
+.HIFI-TEMPO .line-6 {
+  width: 279px;
+  left: -282px;
+  position: absolute;
+  height: 1px;
+  top: 58px;
+}
+
+.HIFI-TEMPO .line-7 {
+  width: 190px;
+  left: -192px;
+  position: absolute;
+  height: 1px;
+  top: 58px;
+}
+
+.HIFI-TEMPO .frame-26 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 38px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .frame-27 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .PHONE {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .span {
+  color: #1e1e1e;
+}
+
+.HIFI-TEMPO .text-wrapper-16 {
+  color: #1e1e1ebf;
+}
+
+.HIFI-TEMPO .text-wrapper-17 {
+  font-family: "Josefin Slab", Helvetica;
+  color: #1e1e1ebf;
+}
+
+.HIFI-TEMPO .div-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Linden Hill", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HIFI-TEMPO .frame-28 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 18px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.HIFI-TEMPO .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #eaeeec;
+  border-radius: 35px;
+  overflow: hidden;
+  border: 1.5px solid;
+  border-color: #000000;
+}
+
+.HIFI-TEMPO .frame-29 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 918px;
+  left: 104px;
+}
+
+.HIFI-TEMPO .text-wrapper-18 {
+  font-size: 32px;
+  letter-spacing: 4.8px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Josefin Slab", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.HIFI-TEMPO .frame-30 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 918px;
+  left: 553px;
+}
+
+.HIFI-TEMPO .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Josefin Slab", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 3.6px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.HIFI-TEMPO .frame-31 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 918px;
+  left: 1150px;
+}
